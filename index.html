@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/bootstrap-icons.svg">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
 
 
     <title>Central Perk</title>
@@ -26,7 +27,7 @@
         Click here
     </button>
     <div class="collapse navbar-collapse" id="centralPerkNavbar">
-    <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a class="nav-link" href="#">Coffee</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Tea</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Subscriptions</a></li>
@@ -36,8 +37,48 @@
             <li class="nav-item"><a class="nav-link" href="#">Central Perks</a></li>
         </ul>
     </div>
-</div>
 </nav>
+
+<div class="container">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data target="#carousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="/Images/Rachel Green.jpeg" alt="Rachel Green" />
+                <div class="carousel-caption">
+                    <h3>The Rachel Green Matcha Tea Latte</h3>
+                    <p class="d-none d-sm-block">
+                        Authentic Matcha green tea steamed with milk for a latte so creamy, you'll think you're enjoying it on the orange couch!
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/Images/Monica Geller.png" alt="Monica Green" />
+                <div class="carousel-caption">
+                    <h3>The Monica Blend</h3>
+                    <p class="d-none d-sm-block">
+                        A balanced roast with clean, crisp flavors!  Slow roasted for absolute perfection.  The only thing missing from this roast is Gunther serving it!  
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/Images/Joey Tribbiani.jpeg" alt="Joey Tribbiani" />
+                <div class="carousel-caption">
+                    <h3>The Joey</h3>
+                    <p class="d-none d-sm-block">
+                        A dark Italian roast harvested in Italy!  This blend is so Italian, you'll be sure to say how you doin'!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -47,4 +88,5 @@
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
